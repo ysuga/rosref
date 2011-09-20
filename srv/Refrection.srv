@@ -1,0 +1,5 @@
+string command
+string option
+string arg
+---
+string ret
