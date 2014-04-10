@@ -1,12 +1,9 @@
 #!/usr/bin/env python
-
 import roslib; roslib.load_manifest('refrection_service')
-
 import sys
-
 import rospy
 
-from refrection_service.srv import *
+from rosref.srv import Refrection
 
 def remote_command_client(x, y, z):
     rospy.wait_for_service('refrection')
